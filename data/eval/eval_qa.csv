@@ -1,0 +1,33 @@
+note_id,question,expected_answer,question_type
+note_01,What was the discharge diagnosis for J. Mehta?,"Community-acquired pneumonia, right lower lobe",diagnosis
+note_01,What antibiotic was J. Mehta switched to before discharge?,Amoxicillin-Clavulanate 875mg twice daily,medication
+note_01,Does J. Mehta have any known drug allergies?,No known drug allergies (NKDA),allergy
+note_01,What was J. Mehta's WBC count on admission?,14.2 (elevated),lab_value
+note_02,What procedure did R. Sharma undergo?,Percutaneous coronary intervention (PCI) with stent placement in the right coronary artery,procedure
+note_02,What is R. Sharma's smoking history?,"Current smoker, 1 pack per day for 30 years (30 pack-year history)",history
+note_02,What was R. Sharma's ejection fraction on echocardiogram?,48%,lab_value
+note_02,Did R. Sharma have nausea or vomiting?,"No, patient denied nausea or vomiting",negation
+note_03,Does A. Khan have pneumonia?,"No, chest X-ray showed no evidence of pneumonia",negation
+note_03,What drug allergy does A. Khan have?,Allergic to Penicillin (causes rash),allergy
+note_03,What was A. Khan's SpO2 at discharge?,98% on room air,lab_value
+note_04,Why was Ceftriaxone used instead of Bactrim for S. Verma?,Because the patient has a sulfa drug allergy that precludes Bactrim use,reasoning
+note_04,What bacteria was found in S. Verma's urine culture?,E. coli,lab_value
+note_04,Was S. Verma's confusion present at baseline?,"No, the confusion was new and not the patient's baseline mental status",negation
+note_05,What type of surgery did P. Nair have?,Laparoscopic appendectomy,procedure
+note_05,Did P. Nair's appendix rupture during surgery?,"No, the appendix was removed without rupture",negation
+note_05,What antibiotics was P. Nair discharged on?,None; only a single pre-operative dose of Cefoxitin was given,medication
+note_06,Why did M. Iyer have a stroke despite being on anticoagulation?,The patient had not taken his anticoagulant (Apixaban) for 2 weeks due to a missed pharmacy refill,reasoning
+note_06,What treatment did M. Iyer receive for the stroke?,IV tPA and mechanical thrombectomy,procedure
+note_06,What was M. Iyer's NIHSS score?,8,lab_value
+note_07,What caused D. Banerjee's COPD exacerbation?,"Likely an infectious cause, suggested by increased and purulent (green) sputum",reasoning
+note_07,Does D. Banerjee have pneumonia on chest X-ray?,"No, the chest X-ray showed no acute infiltrate",negation
+note_07,What was D. Banerjee's home oxygen requirement?,2 liters per minute via nasal cannula,medication
+note_08,What caused T. Reddy's diabetic ketoacidosis?,Insulin non-adherence because the patient ran out of insulin and could not refill her prescription,reasoning
+note_08,What was T. Reddy's anion gap?,24,lab_value
+note_08,What support was arranged for T. Reddy before discharge?,Enrollment in a patient assistance program for insulin access,other
+note_09,Why was Clindamycin used instead of a penicillin-based antibiotic for K. Joshi?,Because the patient has a documented severe penicillin allergy with history of anaphylaxis,reasoning
+note_09,Was deep vein thrombosis found in K. Joshi?,"No, the Doppler ultrasound showed no evidence of deep vein thrombosis",negation
+note_09,What was K. Joshi's temperature on admission?,101.5 F,lab_value
+note_10,What precipitated L. Fernandes' heart failure exacerbation?,Dietary sodium indiscretion (high salt intake at a family event),reasoning
+note_10,What was L. Fernandes' BNP level?,1450 pg/mL,lab_value
+note_10,What dietary instruction was given to L. Fernandes at discharge?,Strict sodium restriction of less than 2g per day,instruction

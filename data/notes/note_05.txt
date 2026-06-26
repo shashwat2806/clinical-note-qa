@@ -1,0 +1,45 @@
+DISCHARGE SUMMARY
+
+Patient: P. Nair
+Age: 24
+Sex: Male
+Date of Admission: 2026-01-15
+Date of Discharge: 2026-01-17
+
+CHIEF COMPLAINT:
+Abdominal pain.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+24-year-old male presented with 18-hour history of periumbilical pain that migrated to the right lower quadrant, associated with nausea, anorexia, and one episode of vomiting. No diarrhea. No fever at home.
+
+PAST MEDICAL HISTORY:
+- None significant
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+None.
+
+PHYSICAL EXAM:
+Temp 100.2 F, HR 92, BP 124/78, RR 16, SpO2 99% on room air.
+Tenderness and guarding at McBurney's point, positive Rovsing's sign. No rebound tenderness noted initially.
+
+LABS AND DIAGNOSTICS:
+WBC 13.8 (elevated, left shift).
+CT abdomen/pelvis: Dilated appendix measuring 11mm with periappendiceal fat stranding, consistent with acute appendicitis. No evidence of perforation or abscess.
+
+ASSESSMENT AND PLAN:
+1. Acute uncomplicated appendicitis - Patient taken for laparoscopic appendectomy same day as admission. Surgery uncomplicated, appendix removed without rupture. Post-operative course unremarkable, tolerating regular diet by post-op day 1, pain controlled on oral analgesics.
+
+MEDICATIONS AT DISCHARGE:
+- Ibuprofen 400mg every 6 hours as needed for pain
+- Acetaminophen 500mg every 6 hours as needed for pain (alternate with ibuprofen)
+- No antibiotics required at discharge (single pre-op dose of Cefoxitin given, uncomplicated case)
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Follow up with surgery clinic in 2 weeks for wound check. No heavy lifting for 2 weeks. Return to ED if fever, increasing abdominal pain, or wound redness/drainage.
+
+DISCHARGE DIAGNOSIS:
+Acute uncomplicated appendicitis, status post laparoscopic appendectomy.

@@ -1,0 +1,47 @@
+DISCHARGE SUMMARY
+
+Patient: T. Reddy
+Age: 19
+Sex: Female
+Date of Admission: 2026-04-18
+Date of Discharge: 2026-04-21
+
+CHIEF COMPLAINT:
+Nausea, vomiting, and abdominal pain.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+19-year-old female with Type 1 Diabetes Mellitus presented with 1-day history of nausea, vomiting, diffuse abdominal pain, and excessive thirst. Patient reports she ran out of insulin 3 days ago and had been unable to refill her prescription. No fever. No diarrhea.
+
+PAST MEDICAL HISTORY:
+- Type 1 Diabetes Mellitus, diagnosed age 12
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+- Insulin glargine 20 units at bedtime (not taken for 3 days)
+- Insulin lispro with meals (not taken for 3 days)
+
+PHYSICAL EXAM:
+Temp 98.9 F, HR 118, BP 102/64, RR 28 (deep, labored breathing), SpO2 99% on room air.
+Dry mucous membranes, fruity breath odor, diffuse mild abdominal tenderness without rebound or guarding.
+
+LABS AND DIAGNOSTICS:
+Glucose 480 mg/dL, blood ketones elevated, venous pH 7.18, bicarbonate 9 mEq/L, anion gap 24.
+Consistent with diabetic ketoacidosis.
+
+ASSESSMENT AND PLAN:
+1. Diabetic ketoacidosis, precipitated by insulin non-adherence due to access issues - Treated with IV fluid resuscitation, IV insulin infusion, and potassium repletion per DKA protocol. Anion gap closed and ketosis resolved by hospital day 2. Transitioned to subcutaneous insulin once tolerating oral intake.
+2. Social work consulted to assist with insulin access and prescription affordability; patient connected with a patient assistance program before discharge.
+
+MEDICATIONS AT DISCHARGE:
+- Insulin glargine 20 units at bedtime
+- Insulin lispro with meals, sliding scale as previously prescribed
+- Patient assistance program enrollment confirmed for ongoing insulin supply
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Endocrinology follow-up in 1 week. Diabetes educator visit scheduled. Emphasized never to stop insulin abruptly; provided emergency contact information for medication access issues. Return to ED for recurrent vomiting, abdominal pain, or inability to keep fluids down.
+
+DISCHARGE DIAGNOSIS:
+Diabetic ketoacidosis, resolved, secondary to insulin non-adherence.

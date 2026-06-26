@@ -1,0 +1,53 @@
+DISCHARGE SUMMARY
+
+Patient: L. Fernandes
+Age: 76
+Sex: Female
+Date of Admission: 2026-01-25
+Date of Discharge: 2026-01-30
+
+CHIEF COMPLAINT:
+Shortness of breath and leg swelling.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+76-year-old female with known heart failure with reduced ejection fraction (HFrEF, EF 30%) presented with 1-week history of progressive shortness of breath, orthopnea (now sleeping on 3 pillows, up from 1), and bilateral leg swelling. Patient admits to dietary indiscretion (high salt intake) at a family event 10 days ago. No chest pain. No fever.
+
+PAST MEDICAL HISTORY:
+- Heart failure with reduced ejection fraction (EF 30%)
+- Atrial fibrillation
+- Chronic kidney disease, stage 3
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+- Furosemide 40mg once daily
+- Carvedilol 12.5mg twice daily
+- Lisinopril 10mg once daily
+- Apixaban 5mg twice daily
+
+PHYSICAL EXAM:
+Temp 98.0 F, HR 92 (irregular), BP 138/84, RR 24, SpO2 91% on room air.
+Bilateral crackles at lung bases, elevated jugular venous pressure, 2+ pitting edema bilaterally to the knees.
+
+LABS AND DIAGNOSTICS:
+BNP elevated at 1450 pg/mL. Creatinine 1.8 (baseline 1.5).
+Chest X-ray: Bilateral pulmonary edema, cardiomegaly. No infiltrate suggestive of pneumonia.
+
+ASSESSMENT AND PLAN:
+1. Acute decompensated heart failure (HFrEF), precipitated by dietary sodium indiscretion - Treated with IV Furosemide, achieving net negative fluid balance of approximately 4 liters over admission. Symptoms improved; orthopnea resolved, edema reduced to trace bilaterally. Transitioned to oral Furosemide prior to discharge at a higher dose than home regimen.
+2. Chronic kidney disease - Creatinine rise attributed to diuresis, expected and monitored; trending toward baseline at discharge.
+3. Extensive dietary counseling provided regarding sodium restriction (less than 2g/day).
+
+MEDICATIONS AT DISCHARGE:
+- Furosemide 60mg once daily (increased from 40mg)
+- Carvedilol 12.5mg twice daily (continue)
+- Lisinopril 10mg once daily (continue)
+- Apixaban 5mg twice daily (continue)
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Cardiology follow-up in 1 week. Daily weight monitoring; call clinic if weight increases by more than 2 lbs in a day or 5 lbs in a week. Strict sodium restriction (less than 2g/day) emphasized. Return to ED for worsening shortness of breath or significant weight gain.
+
+DISCHARGE DIAGNOSIS:
+Acute decompensated heart failure with reduced ejection fraction, secondary to dietary sodium indiscretion.

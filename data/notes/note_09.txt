@@ -1,0 +1,45 @@
+DISCHARGE SUMMARY
+
+Patient: K. Joshi
+Age: 45
+Sex: Female
+Date of Admission: 2026-02-08
+Date of Discharge: 2026-02-11
+
+CHIEF COMPLAINT:
+Redness and swelling of the right leg.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+45-year-old female presented with 3-day history of progressive redness, warmth, and swelling of the right lower leg, following a minor scrape while gardening. Patient reports fever and chills starting the day prior to admission. No history of trauma other than the minor scrape. No recent travel.
+
+PAST MEDICAL HISTORY:
+- Obesity (BMI 34)
+- Allergic to Penicillin (anaphylaxis - documented in chart, severe)
+
+MEDICATIONS ON ADMISSION:
+None regularly.
+
+PHYSICAL EXAM:
+Temp 101.5 F, HR 100, BP 128/80, RR 18, SpO2 98% on room air.
+Right lower leg with well-demarcated erythema, warmth, and tenderness extending from ankle to mid-shin. No fluctuance or abscess. No skin breakdown other than small healing scrape.
+
+LABS AND DIAGNOSTICS:
+WBC 15.6 (elevated). Blood cultures drawn, no growth at discharge.
+Doppler ultrasound of right leg: No evidence of deep vein thrombosis.
+
+ASSESSMENT AND PLAN:
+1. Cellulitis of right lower leg - Given documented severe Penicillin allergy (anaphylaxis), patient was treated with IV Clindamycin instead of standard beta-lactam therapy. Erythema and swelling improved significantly over 3 days. Switched to oral Clindamycin prior to discharge.
+2. Deep vein thrombosis ruled out by Doppler ultrasound.
+
+MEDICATIONS AT DISCHARGE:
+- Clindamycin 300mg four times daily for 7 more days
+- Acetaminophen 500mg as needed for pain
+
+ALLERGIES:
+Penicillin - anaphylaxis (severe, documented). No other known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Follow up with primary care in 1 week. Elevate the leg when resting. Return to ED if spreading redness, fever recurs, or new areas of skin breakdown.
+
+DISCHARGE DIAGNOSIS:
+Cellulitis of right lower extremity, improving on antibiotics.

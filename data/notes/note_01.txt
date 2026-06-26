@@ -1,0 +1,49 @@
+DISCHARGE SUMMARY
+
+Patient: J. Mehta
+Age: 58
+Sex: Male
+Date of Admission: 2026-04-02
+Date of Discharge: 2026-04-06
+
+CHIEF COMPLAINT:
+Fever and productive cough for 4 days.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+58-year-old male with a history of Type 2 Diabetes Mellitus presented to the ED with a 4-day history of fever (max 102.3 F), productive cough with yellow sputum, and pleuritic chest pain. Patient denies hemoptysis. Patient denies shortness of breath at rest. No recent travel. No sick contacts.
+
+PAST MEDICAL HISTORY:
+- Type 2 Diabetes Mellitus, diagnosed 2018
+- Hypertension
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+- Metformin 500mg twice daily
+- Amlodipine 5mg once daily
+
+PHYSICAL EXAM:
+Temp 101.8 F, HR 102, BP 138/86, RR 22, SpO2 94% on room air.
+Right lower lobe crackles on auscultation. No wheezing.
+
+LABS:
+WBC 14.2 (elevated), CRP elevated at 45 mg/L.
+Chest X-ray: Right lower lobe consolidation consistent with pneumonia.
+
+ASSESSMENT AND PLAN:
+1. Community-acquired pneumonia (right lower lobe) - Started on IV Ceftriaxone 1g daily and oral Azithromycin 500mg daily. Patient improved clinically by day 3, switched to oral Amoxicillin-Clavulanate 875mg twice daily for remaining 5-day course at discharge.
+2. Type 2 Diabetes Mellitus - Blood glucose monitored during admission, continued home Metformin.
+3. Hypertension - Continued home Amlodipine, blood pressure stable throughout admission.
+
+MEDICATIONS AT DISCHARGE:
+- Amoxicillin-Clavulanate 875mg twice daily for 5 days
+- Metformin 500mg twice daily (continue)
+- Amlodipine 5mg once daily (continue)
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Follow up with primary care physician in 1 week. Return to ED if fever persists beyond 48 hours, worsening shortness of breath, or chest pain.
+
+DISCHARGE DIAGNOSIS:
+Community-acquired pneumonia, right lower lobe.

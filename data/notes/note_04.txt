@@ -1,0 +1,50 @@
+DISCHARGE SUMMARY
+
+Patient: S. Verma
+Age: 71
+Sex: Female
+Date of Admission: 2026-02-20
+Date of Discharge: 2026-02-25
+
+CHIEF COMPLAINT:
+Confusion and fever.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+71-year-old female brought in by family for 2 days of increasing confusion, decreased oral intake, and low-grade fever. Family reports patient has had urinary frequency and burning for the past 3 days. No cough. No focal weakness.
+
+PAST MEDICAL HISTORY:
+- Chronic kidney disease, stage 3
+- Hypertension
+- Mild cognitive impairment (baseline)
+- Allergic to Sulfa drugs (hives)
+
+MEDICATIONS ON ADMISSION:
+- Losartan 50mg once daily
+- Donepezil 5mg once daily
+
+PHYSICAL EXAM:
+Temp 100.9 F, HR 98, BP 110/68, RR 18, SpO2 97% on room air.
+Suprapubic tenderness present. No costovertebral angle tenderness. Patient oriented to person only, not place or time (new from baseline).
+
+LABS AND DIAGNOSTICS:
+Urinalysis: positive for leukocyte esterase and nitrites, WBC 80/hpf.
+Urine culture: E. coli, sensitive to Ceftriaxone, resistant to Trimethoprim-sulfamethoxazole.
+Creatinine 1.6 (baseline 1.4).
+
+ASSESSMENT AND PLAN:
+1. Urinary tract infection with associated delirium - Started IV Ceftriaxone 1g daily given sulfa allergy precludes Bactrim use. Confusion improved gradually, patient back to baseline mental status by day 4.
+2. Acute kidney injury on chronic kidney disease - Likely pre-renal from poor intake, resolved with IV fluids. Creatinine returned to baseline by discharge.
+
+MEDICATIONS AT DISCHARGE:
+- Cefpodoxime 200mg twice daily for 4 more days
+- Losartan 50mg once daily (continue)
+- Donepezil 5mg once daily (continue)
+
+ALLERGIES:
+Sulfa drugs - causes hives. No other known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Follow up with primary care in 1 week. Encourage adequate fluid intake. Family to monitor mental status; return to ED if confusion worsens or recurs.
+
+DISCHARGE DIAGNOSIS:
+Urinary tract infection with delirium; acute kidney injury on chronic kidney disease, resolved.

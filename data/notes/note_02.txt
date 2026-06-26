@@ -1,0 +1,53 @@
+DISCHARGE SUMMARY
+
+Patient: R. Sharma
+Age: 64
+Sex: Male
+Date of Admission: 2026-03-10
+Date of Discharge: 2026-03-15
+
+CHIEF COMPLAINT:
+Chest pain and shortness of breath.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+64-year-old male presented to the ED with acute onset crushing chest pain radiating to the left arm, associated with diaphoresis and shortness of breath, starting 2 hours prior to arrival. Patient denies nausea or vomiting. No prior history of similar episodes. Patient is a current smoker (1 pack/day for 30 years).
+
+PAST MEDICAL HISTORY:
+- Hyperlipidemia
+- Smoker, 30 pack-year history
+- No history of diabetes
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+- Atorvastatin 20mg once daily
+
+PHYSICAL EXAM:
+Temp 98.6 F, HR 96, BP 152/94, RR 20, SpO2 96% on room air.
+No jugular venous distension. Lungs clear to auscultation bilaterally. No peripheral edema.
+
+LABS AND DIAGNOSTICS:
+Troponin I elevated at 4.8 ng/mL (peak).
+ECG: ST-elevation in leads II, III, aVF consistent with inferior STEMI.
+Echocardiogram: Mild hypokinesis of inferior wall, EF 48%.
+
+ASSESSMENT AND PLAN:
+1. ST-elevation myocardial infarction (inferior wall) - Patient taken urgently for cardiac catheterization. Percutaneous coronary intervention (PCI) performed with stent placement in the right coronary artery. Post-procedure course uncomplicated. No chest pain after intervention.
+2. Hyperlipidemia - Atorvastatin increased to 40mg once daily.
+3. Smoking cessation counseling provided. Patient agreeable to nicotine patch.
+
+MEDICATIONS AT DISCHARGE:
+- Aspirin 81mg once daily (lifelong)
+- Clopidogrel 75mg once daily (12 months)
+- Atorvastatin 40mg once daily
+- Metoprolol succinate 25mg once daily
+- Lisinopril 5mg once daily
+- Nicotine patch 21mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Cardiology follow-up in 2 weeks. Cardiac rehabilitation referral provided. Strict adherence to dual antiplatelet therapy emphasized; do not stop Clopidogrel without consulting cardiologist.
+
+DISCHARGE DIAGNOSIS:
+ST-elevation myocardial infarction (inferior wall), status post PCI with stent placement.

@@ -1,0 +1,49 @@
+DISCHARGE SUMMARY
+
+Patient: M. Iyer
+Age: 67
+Sex: Male
+Date of Admission: 2026-03-28
+Date of Discharge: 2026-04-03
+
+CHIEF COMPLAINT:
+Sudden weakness on the left side.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+67-year-old male with atrial fibrillation presented with sudden onset left-sided facial droop, left arm weakness, and slurred speech, last seen normal 90 minutes prior to arrival. Patient reports he was not on his prescribed anticoagulant for the past 2 weeks due to a missed pharmacy refill.
+
+PAST MEDICAL HISTORY:
+- Atrial fibrillation, on anticoagulation
+- Hypertension
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+- Apixaban 5mg twice daily (non-adherent for past 2 weeks)
+- Lisinopril 10mg once daily
+
+PHYSICAL EXAM:
+Temp 98.2 F, HR 88 (irregular), BP 162/94, RR 18, SpO2 98% on room air.
+Left facial droop, left upper extremity weakness (3/5 strength), dysarthria. NIHSS score 8.
+
+LABS AND DIAGNOSTICS:
+CT head (non-contrast): No acute hemorrhage. CT angiogram: Occlusion of right middle cerebral artery, M1 segment.
+MRI brain (post-treatment): Acute infarct in right MCA territory.
+
+ASSESSMENT AND PLAN:
+1. Acute ischemic stroke, right MCA territory, secondary to non-adherence with anticoagulation in setting of atrial fibrillation - Patient received IV tPA within window and underwent mechanical thrombectomy with successful recanalization. Left-sided weakness improved significantly post-procedure; mild residual left arm weakness (4/5) at discharge. Speech improved, mild residual dysarthria.
+2. Atrial fibrillation - Restarted on Apixaban 5mg twice daily; counseled extensively on importance of adherence.
+3. Hypertension - Blood pressure managed per stroke protocol, continued Lisinopril.
+
+MEDICATIONS AT DISCHARGE:
+- Apixaban 5mg twice daily (continue, emphasize adherence)
+- Lisinopril 10mg once daily (continue)
+- Atorvastatin 40mg once daily (newly started)
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Referral to outpatient physical therapy and speech therapy. Neurology follow-up in 2 weeks. Pharmacy auto-refill set up to prevent future non-adherence. Return to ED immediately for any new weakness, numbness, or speech changes.
+
+DISCHARGE DIAGNOSIS:
+Acute ischemic stroke, right MCA territory, status post tPA and mechanical thrombectomy.

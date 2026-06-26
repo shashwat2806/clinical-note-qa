@@ -1,0 +1,47 @@
+DISCHARGE SUMMARY
+
+Patient: A. Khan
+Age: 9
+Sex: Female
+Date of Admission: 2026-05-12
+Date of Discharge: 2026-05-14
+
+CHIEF COMPLAINT:
+Wheezing and difficulty breathing.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+9-year-old female with known history of asthma presented with 2-day history of wheezing, cough, and increased work of breathing, triggered by an upper respiratory infection. Patient's reliever inhaler (Salbutamol) at home provided only partial relief. No fever. No chest pain.
+
+PAST MEDICAL HISTORY:
+- Asthma, diagnosed age 5, moderate persistent
+- Seasonal allergies
+- Allergic to Penicillin (rash)
+
+MEDICATIONS ON ADMISSION:
+- Salbutamol inhaler PRN
+- Fluticasone inhaler 110mcg twice daily
+
+PHYSICAL EXAM:
+Temp 98.4 F, HR 118, RR 28, SpO2 93% on room air.
+Bilateral expiratory wheeze, mild subcostal retractions. No cyanosis.
+
+LABS AND DIAGNOSTICS:
+Chest X-ray: Hyperinflation, no focal consolidation. No evidence of pneumonia.
+
+ASSESSMENT AND PLAN:
+1. Acute asthma exacerbation, moderate severity, triggered by viral URI - Treated with nebulized Salbutamol and Ipratropium every 4 hours, oral Prednisolone 1mg/kg/day for 5 days, and supplemental oxygen for first 24 hours. Patient showed steady improvement; weaned off oxygen by day 2, SpO2 98% on room air at discharge.
+2. Patient does not have pneumonia; chest X-ray clear of consolidation.
+
+MEDICATIONS AT DISCHARGE:
+- Oral Prednisolone 1mg/kg/day, continue for remaining 3 days
+- Salbutamol inhaler PRN via spacer
+- Fluticasone inhaler 110mcg twice daily (continue)
+
+ALLERGIES:
+Penicillin - causes rash. No other known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Follow up with pediatrician in 3-5 days. Asthma action plan reviewed with parents. Return to ED if increased work of breathing, SpO2 drop, or no improvement with reliever inhaler.
+
+DISCHARGE DIAGNOSIS:
+Acute moderate asthma exacerbation, secondary to viral upper respiratory infection.

@@ -1,0 +1,51 @@
+DISCHARGE SUMMARY
+
+Patient: D. Banerjee
+Age: 69
+Sex: Male
+Date of Admission: 2026-05-02
+Date of Discharge: 2026-05-06
+
+CHIEF COMPLAINT:
+Worsening shortness of breath.
+
+HISTORY OF PRESENT ILLNESS (HPI):
+69-year-old male with COPD (on home oxygen 2L/min) presented with 3-day history of worsening dyspnea, increased sputum production with change in color from clear to green, and increased use of accessory muscles. No fever. No chest pain.
+
+PAST MEDICAL HISTORY:
+- COPD, GOLD stage 3, on home oxygen
+- 40 pack-year smoking history, quit 5 years ago
+- No known drug allergies (NKDA)
+
+MEDICATIONS ON ADMISSION:
+- Tiotropium inhaler once daily
+- Salmeterol/Fluticasone inhaler twice daily
+- Home oxygen 2L/min via nasal cannula
+
+PHYSICAL EXAM:
+Temp 99.1 F, HR 104, BP 130/82, RR 26, SpO2 88% on home oxygen (2L).
+Diffuse expiratory wheeze and prolonged expiratory phase. Using accessory muscles of respiration.
+
+LABS AND DIAGNOSTICS:
+ABG: pH 7.34, pCO2 52, pO2 58 (mild respiratory acidosis with hypoxemia).
+Chest X-ray: Hyperinflated lungs, no acute infiltrate.
+Sputum culture: pending at discharge.
+
+ASSESSMENT AND PLAN:
+1. Acute COPD exacerbation, likely infectious - Started on nebulized Albuterol/Ipratropium every 4 hours, IV Methylprednisolone tapered to oral Prednisone, and empiric oral Azithromycin for 5 days given purulent sputum. Oxygen increased temporarily to 4L/min, weaned back to baseline 2L/min by discharge. No evidence of pneumonia on chest X-ray.
+
+MEDICATIONS AT DISCHARGE:
+- Prednisone 40mg once daily, taper over 5 days
+- Azithromycin 250mg once daily, 2 more days to complete 5-day course
+- Tiotropium inhaler once daily (continue)
+- Salmeterol/Fluticasone inhaler twice daily (continue)
+- Home oxygen 2L/min via nasal cannula (continue)
+
+ALLERGIES:
+No known drug allergies.
+
+DISCHARGE INSTRUCTIONS:
+Pulmonology follow-up in 1 week. Pulmonary rehabilitation referral provided. Return to ED if increasing breathlessness, SpO2 below 88% on home oxygen, or fever.
+
+DISCHARGE DIAGNOSIS:
+Acute exacerbation of COPD, likely infectious etiology.
