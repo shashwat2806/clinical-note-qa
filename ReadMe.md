@@ -1,4 +1,4 @@
-# Clinical Note Q&A — RAG-based Clinical Document Assistant
+# Clinical Note Q&A - RAG-based Clinical Document Assistant
 
 A fully local Retrieval-Augmented Generation (RAG) pipeline that answers 
 natural-language questions about clinical discharge summaries, grounded in 
@@ -56,16 +56,16 @@ Evaluated on a hand-crafted 32-question benchmark spanning:
 - Negation questions ("does NOT have X")
 - Reasoning questions (connecting two facts, e.g. "why was drug X used instead of Y")
 
-**Overall accuracy: [FILL IN AFTER EVAL RUN]%**
+**Overall accuracy: 56.2% (18/32 questions)**
 
 | Question Type | Accuracy |
 |---|---|
-| diagnosis | [TBD] |
-| medication | [TBD] |
-| allergy | [TBD] |
-| lab_value | [TBD] |
-| negation | [TBD] |
-| reasoning | [TBD] |
+| diagnosis | [100%] |
+| medication | [33%] |
+| allergy | [50%] |
+| lab_value | [25%] |
+| negation | [83%] |
+| reasoning | [83%] |
 
 ## Setup
 
