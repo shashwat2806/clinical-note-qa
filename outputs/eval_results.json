@@ -1,0 +1,305 @@
+{
+  "accuracy": 56.2,
+  "correct": 18,
+  "total": 32,
+  "by_type": {
+    "diagnosis": {
+      "correct": 1,
+      "total": 1
+    },
+    "medication": {
+      "correct": 1,
+      "total": 3
+    },
+    "allergy": {
+      "correct": 1,
+      "total": 2
+    },
+    "lab_value": {
+      "correct": 2,
+      "total": 8
+    },
+    "procedure": {
+      "correct": 1,
+      "total": 3
+    },
+    "history": {
+      "correct": 1,
+      "total": 1
+    },
+    "negation": {
+      "correct": 5,
+      "total": 6
+    },
+    "reasoning": {
+      "correct": 5,
+      "total": 6
+    },
+    "other": {
+      "correct": 0,
+      "total": 1
+    },
+    "instruction": {
+      "correct": 1,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "question": "What was the discharge diagnosis for J. Mehta?",
+      "expected": "Community-acquired pneumonia, right lower lobe",
+      "got": "According to the context provided, the discharge diagnosis for J. Mehta is \"Community-acquired pneumonia, right lower lobe.\"",
+      "type": "diagnosis",
+      "passed": true,
+      "score": 1.0
+    },
+    {
+      "question": "What antibiotic was J. Mehta switched to before discharge?",
+      "expected": "Amoxicillin-Clavulanate 875mg twice daily",
+      "got": "I cannot find this information in the document. The document does not specify which antibiotic J. Mehta was switched to before discharge.",
+      "type": "medication",
+      "passed": false,
+      "score": 0.0
+    },
+    {
+      "question": "Does J. Mehta have any known drug allergies?",
+      "expected": "No known drug allergies (NKDA)",
+      "got": "I cannot find any information in the document about J. Mehta having any known drug allergies. The context does not provide this information.",
+      "type": "allergy",
+      "passed": true,
+      "score": 0.67
+    },
+    {
+      "question": "What was J. Mehta's WBC count on admission?",
+      "expected": "14.2 (elevated)",
+      "got": "I cannot find this information in the document. The document does not provide J. Mehta's WBC count on admission.",
+      "type": "lab_value",
+      "passed": false,
+      "score": 0.0
+    },
+    {
+      "question": "What procedure did R. Sharma undergo?",
+      "expected": "Percutaneous coronary intervention (PCI) with stent placement in the right coronary artery",
+      "got": "According to the document, R. Sharma underwent a procedure called \"angioplasty with stenting\" (Document, p. 2).",
+      "type": "procedure",
+      "passed": false,
+      "score": 0.11
+    },
+    {
+      "question": "What is R. Sharma's smoking history?",
+      "expected": "Current smoker, 1 pack per day for 30 years (30 pack-year history)",
+      "got": "According to the context provided, R. Sharma's smoking history is 30 pack-years.",
+      "type": "history",
+      "passed": true,
+      "score": 0.4
+    },
+    {
+      "question": "What was R. Sharma's ejection fraction on echocardiogram?",
+      "expected": "48%",
+      "got": "According to the context provided, R. Sharma's ejection fraction on echocardiogram was 48%.",
+      "type": "lab_value",
+      "passed": false,
+      "score": 0
+    },
+    {
+      "question": "Did R. Sharma have nausea or vomiting?",
+      "expected": "No, patient denied nausea or vomiting",
+      "got": "According to the information provided in the context, the answer to the question \"Did R. Sharma have nausea or vomiting?\" is:\n\n\"I cannot find any information in the document about R. Sharma having nausea or vomiting.\"",
+      "type": "negation",
+      "passed": true,
+      "score": 0.5
+    },
+    {
+      "question": "Does A. Khan have pneumonia?",
+      "expected": "No, chest X-ray showed no evidence of pneumonia",
+      "got": "Based on the information provided in the context, I cannot find any mention of pneumonia in the patient's chart. The chest X-ray report mentions hyperinflation without any focal consolidation, which suggests that there is no evidence of pneumonia. Additionally, the patient's history of present illness does not mention any symptoms consistent with pneumonia, such as fever or chest pain. Based on the information provided, it can be concluded that A. Khan does not have pneumonia.",
+      "type": "negation",
+      "passed": true,
+      "score": 0.8
+    },
+    {
+      "question": "What drug allergy does A. Khan have?",
+      "expected": "Allergic to Penicillin (causes rash)",
+      "got": "According to the context provided, A. Khan has a drug allergy to Penicillin, which causes a rash.",
+      "type": "allergy",
+      "passed": false,
+      "score": 0.25
+    },
+    {
+      "question": "What was A. Khan's SpO2 at discharge?",
+      "expected": "98% on room air",
+      "got": "According to the discharge instructions, A. Khan's SpO2 at discharge was 93% on room air.",
+      "type": "lab_value",
+      "passed": false,
+      "score": 0
+    },
+    {
+      "question": "Why was Ceftriaxone used instead of Bactrim for S. Verma?",
+      "expected": "Because the patient has a sulfa drug allergy that precludes Bactrim use",
+      "got": "According to the context, Ceftriaxone was used instead of Bactrim for S. Verma because she has a sulfa allergy. The assessment and plan section states that \"IV Ceftriaxone 1g daily given sulfa allergy precludes Bactrim use.\" Therefore, Ceftriaxone was the preferred antibiotic choice for treating the patient's urinary tract infection due to her allergy.",
+      "type": "reasoning",
+      "passed": true,
+      "score": 1.0
+    },
+    {
+      "question": "What bacteria was found in S. Verma's urine culture?",
+      "expected": "E. coli",
+      "got": "According to the urine culture result mentioned in the context, the bacteria found in S. Verma's urine is \"E. coli.\"",
+      "type": "lab_value",
+      "passed": false,
+      "score": 0
+    },
+    {
+      "question": "Was S. Verma's confusion present at baseline?",
+      "expected": "No, the confusion was new and not the patient's baseline mental status",
+      "got": "I cannot find information in the document to determine if S. Verma's confusion was present at baseline or not. The document does not provide this information.",
+      "type": "negation",
+      "passed": true,
+      "score": 0.4
+    },
+    {
+      "question": "What type of surgery did P. Nair have?",
+      "expected": "Laparoscopic appendectomy",
+      "got": "I cannot find any information in the document about the type of surgery that P. Nair had. According to the discharge instructions, he is scheduled to follow up with a surgery clinic in 2 weeks for a wound check, but there is no mention of the type of surgery he underwent.",
+      "type": "procedure",
+      "passed": false,
+      "score": 0.0
+    },
+    {
+      "question": "Did P. Nair's appendix rupture during surgery?",
+      "expected": "No, the appendix was removed without rupture",
+      "got": "Based on the information provided in the context, the answer to the question \"Did P. Nair's appendix rupture during surgery?\" is:\n\n\"I cannot find any information in the document to suggest that P. Nair's appendix ruptured during surgery.\"",
+      "type": "negation",
+      "passed": true,
+      "score": 0.5
+    },
+    {
+      "question": "What antibiotics was P. Nair discharged on?",
+      "expected": "None; only a single pre-operative dose of Cefoxitin was given",
+      "got": "According to the discharge instructions, P. Nair was not discharged on any antibiotics. The document states, \"No antibiotics required at discharge (single pre-op dose of Cefoxitin given, uncomplicated case).\" Therefore, the answer is: No antibiotics were discharged on.",
+      "type": "medication",
+      "passed": true,
+      "score": 0.6
+    },
+    {
+      "question": "Why did M. Iyer have a stroke despite being on anticoagulation?",
+      "expected": "The patient had not taken his anticoagulant (Apixaban) for 2 weeks due to a missed pharmacy refill",
+      "got": "I cannot find information in the document that explains why M. Iyer had a stroke despite being on anticoagulation. The discharge diagnosis is Acute ischemic stroke, right MCA territory, status post tPA and mechanical thrombectomy, but there is no mention of the anticoagulation medication or its effectiveness in preventing strokes. Therefore, I cannot provide an answer to this question based solely on the provided context.",
+      "type": "reasoning",
+      "passed": false,
+      "score": 0.0
+    },
+    {
+      "question": "What treatment did M. Iyer receive for the stroke?",
+      "expected": "IV tPA and mechanical thrombectomy",
+      "got": "According to the context provided, M. Iyer received the following treatments for his stroke:\n\n1. IV tPA within the window for acute ischemic stroke.\n2. Mechanical thrombectomy with successful recanalization.",
+      "type": "procedure",
+      "passed": true,
+      "score": 1.0
+    },
+    {
+      "question": "What was M. Iyer's NIHSS score?",
+      "expected": "8",
+      "got": "According to the context provided, M. Iyer's NIHSS score was 8.",
+      "type": "lab_value",
+      "passed": false,
+      "score": 0
+    },
+    {
+      "question": "What caused D. Banerjee's COPD exacerbation?",
+      "expected": "Likely an infectious cause, suggested by increased and purulent (green) sputum",
+      "got": "Based on the information provided in the context, it can be inferred that the cause of D. Banerjee's COPD exacerbation is likely infectious etiology. The document does not provide any explicit information on the cause of the exacerbation, but given the patient's history of COPD and the symptoms mentioned (worsening dyspnea, increased sputum production with change in color from clear to green, and increased use of accessory muscles), it is likely that an infectious agent such as a virus or bacteria caused the exacerbation.",
+      "type": "reasoning",
+      "passed": true,
+      "score": 0.5
+    },
+    {
+      "question": "Does D. Banerjee have pneumonia on chest X-ray?",
+      "expected": "No, the chest X-ray showed no acute infiltrate",
+      "got": "According to the information provided in the context, there is no mention of pneumonia on the chest X-ray of D. Banerjee. The report states that the chest X-ray is \"pending at discharge,\" which means that the results have not been obtained yet. Therefore, I cannot find this information in the document and must answer \"I cannot find this information in the document.\"",
+      "type": "negation",
+      "passed": true,
+      "score": 0.4
+    },
+    {
+      "question": "What was D. Banerjee's home oxygen requirement?",
+      "expected": "2 liters per minute via nasal cannula",
+      "got": "According to the discharge instructions, D. Banerjee's home oxygen requirement is 2L.",
+      "type": "medication",
+      "passed": false,
+      "score": 0.0
+    },
+    {
+      "question": "What caused T. Reddy's diabetic ketoacidosis?",
+      "expected": "Insulin non-adherence because the patient ran out of insulin and could not refill her prescription",
+      "got": "According to the clinical note, T. Reddy's diabetic ketoacidosis was precipitated by insulin non-adherence due to access issues. This information can be found in the \"Assessment and Plan\" section of the document.",
+      "type": "reasoning",
+      "passed": true,
+      "score": 0.38
+    },
+    {
+      "question": "What was T. Reddy's anion gap?",
+      "expected": "24",
+      "got": "I cannot find this information in the document. The anion gap is not mentioned anywhere in the context provided.",
+      "type": "lab_value",
+      "passed": false,
+      "score": 0
+    },
+    {
+      "question": "What support was arranged for T. Reddy before discharge?",
+      "expected": "Enrollment in a patient assistance program for insulin access",
+      "got": "According to the discharge instructions, a diabetes educator visit was scheduled for T. Reddy before discharge.",
+      "type": "other",
+      "passed": false,
+      "score": 0.0
+    },
+    {
+      "question": "Why was Clindamycin used instead of a penicillin-based antibiotic for K. Joshi?",
+      "expected": "Because the patient has a documented severe penicillin allergy with history of anaphylaxis",
+      "got": "According to the assessment and plan section of the clinical note, Clindamycin was used instead of a penicillin-based antibiotic for K. Joshi due to her documented severe Penicillin allergy (anaphylaxis).",
+      "type": "reasoning",
+      "passed": true,
+      "score": 0.62
+    },
+    {
+      "question": "Was deep vein thrombosis found in K. Joshi?",
+      "expected": "No, the Doppler ultrasound showed no evidence of deep vein thrombosis",
+      "got": "I cannot find information in the document about the presence of deep vein thrombosis in K. Joshi. The lab results and diagnostic tests mentioned in the context do not provide any information on this topic. Therefore, I must respond with \"I cannot find this information in the document.\"",
+      "type": "negation",
+      "passed": false,
+      "score": 0.2
+    },
+    {
+      "question": "What was K. Joshi's temperature on admission?",
+      "expected": "101.5 F",
+      "got": "According to the physical exam section of the clinical note, K. Joshi's temperature on admission was 101.5 degrees Fahrenheit.",
+      "type": "lab_value",
+      "passed": true,
+      "score": 1.0
+    },
+    {
+      "question": "What precipitated L. Fernandes' heart failure exacerbation?",
+      "expected": "Dietary sodium indiscretion (high salt intake at a family event)",
+      "got": "According to the discharge diagnosis, \"Acute decompensated heart failure with reduced ejection fraction, secondary to dietary sodium indiscretion,\" it can be inferred that L. Fernandes' heart failure exacerbation was precipitated by her high salt intake at a family event 10 days prior to admission.",
+      "type": "reasoning",
+      "passed": true,
+      "score": 0.71
+    },
+    {
+      "question": "What was L. Fernandes' BNP level?",
+      "expected": "1450 pg/mL",
+      "got": "According to the context provided, L. Fernandes' BNP level was elevated at 1450 pg/mL.",
+      "type": "lab_value",
+      "passed": true,
+      "score": 1.0
+    },
+    {
+      "question": "What dietary instruction was given to L. Fernandes at discharge?",
+      "expected": "Strict sodium restriction of less than 2g per day",
+      "got": "According to the discharge instructions provided in the context, the following dietary instruction was given to L. Fernandes at discharge:\n\n\"Strict sodium restriction (less than 2g/day) emphasized.\"",
+      "type": "instruction",
+      "passed": true,
+      "score": 1.0
+    }
+  ]
+}
