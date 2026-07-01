@@ -60,12 +60,12 @@ Evaluated on a hand-crafted 32-question benchmark spanning:
 
 | Question Type | Accuracy |
 |---|---|
-| diagnosis | [100%] |
-| medication | [33%] |
-| allergy | [50%] |
-| lab_value | [25%] |
-| negation | [83%] |
-| reasoning | [83%] |
+| diagnosis | 100% |
+| medication | 33% |
+| allergy | 50% |
+| lab_value | 25% |
+| negation | 83% |
+| reasoning | 83% |
 
 ## Setup
 
