@@ -96,9 +96,9 @@ keeps related information together, improving retrieval quality.
 
 **Strict grounding prompt**: The system prompt explicitly forbids the LLM from 
 using outside knowledge. This causes honest "I cannot find this" responses 
-rather than hallucinated answers — the safer failure mode in a clinical context.
+rather than hallucinated answers - the safer failure mode in a clinical context.
 
 **Fully local stack**: No external API calls means no patient data ever leaves 
-the machine — a real constraint in healthcare deployment that this architecture 
+the machine - a real constraint in healthcare deployment that this architecture 
 respects from the start.
 
