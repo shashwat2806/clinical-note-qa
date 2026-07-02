@@ -3,3 +3,4 @@ sentence-transformers
 ollama
 streamlit
 pandas
+Ollama(llama2)
