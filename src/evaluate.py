@@ -72,7 +72,7 @@ def run_evaluation():
         pct = counts["correct"] / counts["total"] * 100
         print(f"  {qtype:<20} {counts['correct']}/{counts['total']} = {pct:.0f}%")
 
-    # Save full results
+    
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump({
             "accuracy": round(accuracy, 1),
