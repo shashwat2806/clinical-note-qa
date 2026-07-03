@@ -15,8 +15,8 @@ This project is built to avoid that failure mode **by design**, not by prompt-le
 
 - 🔍 **Retrieves** relevant sections from real clinical notes *before* generating any answer
 - 📌 **Cites** exactly which part of the document supported each answer
-- 🚫 **Refuses** to give medical advice — it answers questions about the document's contents, never about patient care
-- 🔒 **Runs fully locally** — no external API calls, no patient data ever leaves the machine
+- 🚫 **Refuses** to give medical advice - it answers questions about the document's contents, never about patient care
+- 🔒 **Runs fully locally** - no external API calls, no patient data ever leaves the machine
 
 ---
 
