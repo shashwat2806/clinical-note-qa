@@ -1,7 +1,7 @@
 """
 app.py
 Streamlit chat interface for the Clinical Note Q&A RAG system.
-Supports both pre-loaded synthetic notes and uploaded PDF clinical notes.
+Supports pre-loaded synthetic notes, note selector, and PDF upload.
 """
 
 import streamlit as st
@@ -77,11 +77,12 @@ if store is None:
 if "messages" not in st.session_state:
     st.session_state.messages = []
     st.session_state.query_count = 0
+    st.session_state.selected_note_id = None
 
 # Sidebar
 with st.sidebar:
 
-    # PDF Upload — TOP of sidebar
+    # PDF Upload — top of sidebar
     st.markdown("### 📂 Upload a Clinical Note")
     st.markdown("Upload a PDF discharge summary to chat with it directly.")
 
@@ -113,10 +114,42 @@ with st.sidebar:
 
     st.divider()
 
+    # Note selector
+    st.markdown("### 🗂️ Select a Patient Note")
+    st.markdown("Filter queries to a specific note, or search across all.")
+
+    NOTE_OPTIONS = {
+        "All notes (search across everything)": None,
+        "note_01 — J. Mehta (Pneumonia)": "note_01",
+        "note_02 — R. Sharma (MI / Chest Pain)": "note_02",
+        "note_03 — A. Khan (Asthma, Paediatric)": "note_03",
+        "note_04 — S. Verma (UTI / Delirium)": "note_04",
+        "note_05 — P. Nair (Appendicitis)": "note_05",
+        "note_06 — M. Iyer (Stroke)": "note_06",
+        "note_07 — D. Banerjee (COPD)": "note_07",
+        "note_08 — T. Reddy (Diabetic Ketoacidosis)": "note_08",
+        "note_09 — K. Joshi (Cellulitis)": "note_09",
+        "note_10 — L. Fernandes (Heart Failure)": "note_10",
+    }
+
+    selected_label = st.selectbox(
+        "Choose a note:",
+        options=list(NOTE_OPTIONS.keys()),
+        index=0,
+    )
+    st.session_state.selected_note_id = NOTE_OPTIONS[selected_label]
+
+    if st.session_state.selected_note_id:
+        st.caption(f"Filtering to: {st.session_state.selected_note_id}")
+    else:
+        st.caption("Searching across all 10 notes")
+
+    st.divider()
+
     # How to use
     st.markdown("### 📖 How to Use")
     st.markdown("""
-    1. Upload a PDF above, or ask about pre-loaded notes
+    1. Upload a PDF above, or select a pre-loaded note
     2. **Ask a Question** in the chat box below
     3. **View Sources** to see which sections were used
     """)
@@ -150,18 +183,6 @@ with st.sidebar:
     with col2:
         st.metric("Active Session", "✅" if store else "❌")
 
-    st.divider()
-
-    st.markdown("### 🎯 About This System")
-    st.markdown("""
-    **RAG Pipeline**:
-    - Chunks clinical notes by section
-    - Embeds text semantically
-    - Retrieves relevant sections
-    - Generates grounded answers
-    - Shows citations for transparency
-    """)
-
 # Display chat history
 for message in st.session_state.messages:
     with st.chat_message(message["role"], avatar="👤" if message["role"] == "user" else "🤖"):
@@ -190,7 +211,12 @@ if question := st.chat_input("Ask a question about the clinical note...", key="c
     with st.chat_message("assistant", avatar="🤖"):
         with st.spinner("🔍 Searching clinical notes..."):
             try:
-                result = answer_question(store, question, top_k=3)
+                result = answer_question(
+                    store,
+                    question,
+                    top_k=3,
+                    note_id=st.session_state.get("selected_note_id")
+                )
                 time.sleep(0.3)
             except Exception as e:
                 st.error(f"Error: {e}")

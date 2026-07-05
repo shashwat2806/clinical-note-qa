@@ -13,6 +13,7 @@ ADVICE_TRIGGERS = [
     "should i take", "what should i do", "do i have", "am i at risk",
     "what medication should i", "can you diagnose me", "is it safe for me to"
 ]
+
 SYSTEM_PROMPT = """You are a clinical document assistant. You answer questions about a SPECIFIC patient's clinical note using ONLY the context provided below.
 
 Rules:
@@ -23,6 +24,7 @@ Rules:
 5. Never invent information not explicitly stated in the context.
 """
 
+
 def is_out_of_scope(question: str) -> bool:
     """Returns True if the question is asking for advice about the USER, not the document."""
     question_lower = question.lower()
@@ -30,6 +32,8 @@ def is_out_of_scope(question: str) -> bool:
         if trigger in question_lower:
             return True
     return False
+
+
 def build_prompt(question: str, context_chunks: list[str]) -> str:
     """Combines retrieved chunks + the question into one prompt for the LLM."""
     context_block = "\n\n---\n\n".join(context_chunks)
@@ -40,7 +44,14 @@ QUESTION:
 {question}
 
 Answer using only the context above."""
-def answer_question(store: ClinicalVectorStore, question: str, top_k: int = 3) -> dict:
+
+
+def answer_question(
+    store: ClinicalVectorStore,
+    question: str,
+    top_k: int = 3,
+    note_id: str = None
+) -> dict:
     """Full RAG pipeline: check safety -> retrieve -> build prompt -> call LLM -> return answer + sources."""
 
     if is_out_of_scope(question):
@@ -50,7 +61,7 @@ def answer_question(store: ClinicalVectorStore, question: str, top_k: int = 3) -
             "blocked": True,
         }
 
-    results = store.query(question, top_k=top_k)
+    results = store.query(question, top_k=top_k, note_id=note_id)
     documents = results["documents"][0]
     metadatas = results["metadatas"][0]
 
@@ -82,6 +93,8 @@ def answer_question(store: ClinicalVectorStore, question: str, top_k: int = 3) -
         "sources": sources,
         "blocked": False,
     }
+
+
 if __name__ == "__main__":
     store = ClinicalVectorStore()
     result = answer_question(store, "What medication was given for chest pain?")

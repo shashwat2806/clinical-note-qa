@@ -36,11 +36,14 @@ class ClinicalVectorStore:
         )
         print(f"Indexed {len(texts)} chunks.")
 
-    def query(self, question: str, top_k: int = 3):
+    def query(self, question: str, top_k: int = 3, note_id: str = None):
+        """Returns top_k most relevant chunks, optionally filtered to one note."""
         query_embedding = self.embedder.encode([question]).tolist()
+        where_filter = {"note_id": note_id} if note_id else None
         results = self.collection.query(
             query_embeddings=query_embedding,
             n_results=top_k,
+            where=where_filter,
         )
         return results
 
