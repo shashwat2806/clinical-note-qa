@@ -68,12 +68,11 @@ This project instead:
 
 
 **Note selector — filter queries to a specific patient**
-![Note selector](<img width="1895" height="827" alt="docsscreenshot-sidebar png" src="https://github.com/user-attachments/assets/3dc75eeb-4580-4321-997f-78829344e889" />
-)
+<img width="1895" height="827" alt="docsscreenshot-sidebar png" src="https://github.com/user-attachments/assets/fa788de1-e2f9-4aad-9c0c-159bbc072ec0" />
 
 **Grounded Q&A with cited sources**
-![Q&A example](<img width="958" height="312" alt="Screenshot 2026-07-09 155727" src="https://github.com/user-attachments/assets/dc68bbb0-a95f-4fa3-8799-d0c70dc5971b" />
-)
+<img width="958" height="312" alt="Screenshot 2026-07-09 155727" src="https://github.com/user-attachments/assets/dc68bbb0-a95f-4fa3-8799-d0c70dc5971b" />
+
 
 ---
 
