@@ -2,7 +2,7 @@
 
 A fully local Retrieval-Augmented Generation (RAG) pipeline that answers
 natural-language questions about clinical discharge summaries, grounded in
-the actual document text with source citations. No external API calls —
+the actual document text with source citations. No external API calls -
 everything runs on your machine.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -15,27 +15,27 @@ everything runs on your machine.
 
 ## Why this project
 
-Most "healthcare AI chatbot" demos are thin LLM wrappers with no grounding —
+Most "healthcare AI chatbot" demos are thin LLM wrappers with no grounding -
 exactly the failure mode that makes hallucination dangerous in clinical settings.
 This project instead:
 
 - Retrieves relevant sections from real clinical notes **before** answering
 - Cites which part of the document supported each answer
 - Refuses to give medical advice — answers questions about documents, not users
-- Supports **PDF upload** — upload any discharge summary and chat with it instantly
-- Supports **single-note filtering** — scope queries to one patient instead of searching all
-- Runs fully locally — no patient data ever leaves the machine
+- Supports **PDF upload** - upload any discharge summary and chat with it instantly
+- Supports **single-note filtering** - scope queries to one patient instead of searching all
+- Runs fully locally - no patient data ever leaves the machine
 
 ---
 
 ## Screenshots
 
 **Main interface**
-![Main interface](# Clinical Note Q&A — RAG-based Clinical Document Assistant
+![Main interface](# Clinical Note Q&A - RAG-based Clinical Document Assistant
 
 A fully local Retrieval-Augmented Generation (RAG) pipeline that answers
 natural-language questions about clinical discharge summaries, grounded in
-the actual document text with source citations. No external API calls —
+the actual document text with source citations. No external API calls -
 everything runs on your machine.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -48,16 +48,16 @@ everything runs on your machine.
 
 ## Why this project
 
-Most "healthcare AI chatbot" demos are thin LLM wrappers with no grounding —
+Most "healthcare AI chatbot" demos are thin LLM wrappers with no grounding -
 exactly the failure mode that makes hallucination dangerous in clinical settings.
 This project instead:
 
 - Retrieves relevant sections from real clinical notes **before** answering
 - Cites which part of the document supported each answer
-- Refuses to give medical advice — answers questions about documents, not users
-- Supports **PDF upload** — upload any discharge summary and chat with it instantly
-- Supports **single-note filtering** — scope queries to one patient instead of searching all
-- Runs fully locally — no patient data ever leaves the machine
+- Refuses to give medical advice - answers questions about documents, not users
+- Supports **PDF upload** - upload any discharge summary and chat with it instantly
+- Supports **single-note filtering** - scope queries to one patient instead of searching all
+- Runs fully locally - no patient data ever leaves the machine
 
 ---
 
@@ -134,7 +134,7 @@ question types, designed to test both factual retrieval and harder reasoning:
 | diagnosis | 100% | Direct lookup |
 | history | 100% | Direct lookup |
 | instruction | 100% | Direct lookup |
-| negation | 83% | "Patient does NOT have X" — hardest NLP task |
+| negation | 83% | "Patient does NOT have X" - hardest NLP task |
 | reasoning | 83% | Multi-fact inference |
 | allergy | 50% | |
 | medication | 33% | Conservative grounding causes paraphrasing |
@@ -236,7 +236,7 @@ vs naive character-count chunking.
 
 **Strict grounding prompt**: The system prompt explicitly forbids the LLM
 from using outside knowledge. This produces honest "I cannot find this"
-responses rather than hallucinated answers — the safer failure mode in
+responses rather than hallucinated answers - the safer failure mode in
 a clinical context.
 
 **Per-note filtering**: Retrieval can be scoped to a single patient note
@@ -248,7 +248,7 @@ leaves the machine — a real constraint in healthcare deployment that this
 architecture respects from the start.
 
 **PDF support**: `pdfplumber` extracts text from uploaded PDFs, feeding
-directly into the existing chunker — no changes to the RAG pipeline needed.
+directly into the existing chunker - no changes to the RAG pipeline needed.
 
 ---
 
