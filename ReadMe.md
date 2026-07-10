@@ -64,7 +64,8 @@ This project instead:
 ## Screenshots
 
 **Main interface**
-![Main interface](docs/screenshot-main.png)
+<img width="1902" height="877" alt="full_web png" src="https://github.com/user-attachments/assets/7684965b-3894-45d6-8f38-44b1018a7c77" />
+
 
 **Note selector — filter queries to a specific patient**
 ![Note selector](<img width="1895" height="827" alt="docsscreenshot-sidebar png" src="https://github.com/user-attachments/assets/3dc75eeb-4580-4321-997f-78829344e889" />
